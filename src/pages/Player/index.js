@@ -3,6 +3,7 @@ import Banner from "../../components/Banner"
 import Titulo from "../../components/Titulo"
 import NaoEncontrada from "../NaoEncontrada";
 import styles from "./Player.module.css"
+import { useParams } from "react-router-dom";
 
 function Player() {
     const [video, setVideo] = useState()
